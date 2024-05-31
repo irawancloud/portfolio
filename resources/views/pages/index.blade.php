@@ -17,8 +17,8 @@ Home
                     <img src="{{ asset('template/img/k-studio.jpeg') }}" class="img-fluid main-img-mobile d-none d-sm-block d-lg-none" alt="my picture" />
                     <h1 class="poppins-font">Irawan<span>Web Developer</span></h1>
                     <p class="open-sans-font">I'm a Indonesian based web developer, I am passionate about building excellent software that improves the lives of those around me.</p>
-                    <a class="button" href="about.html">
-                        <span class="button-text">more about me</span>
+                    <a class="button" href="{{ route('about') }}">
+                        <span class="button-text">More about me</span>
                         <span class="button-icon fa fa-arrow-right"></span>
                     </a>
                 </div>
