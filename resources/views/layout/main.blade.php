@@ -5,13 +5,15 @@
     <meta charset="utf-8">
     <title>@yield('title')</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=”apple-touch-icon” href="{{ asset('logo.png') }}">
+    <link rel=”manifest” href="{{ asset('manifest.json') }}">
 
     <!-- Template Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('template/favicon/apple-icon-57x57.png') }}">
+    <!-- <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('template/favicon/apple-icon-57x57.png') }}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('template/favicon/apple-icon-60x60.png') }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('template/favicon/apple-icon-72x72.png') }}">
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('template/favicon/apple-icon-76x76.png') }}">
@@ -27,7 +29,7 @@
     <link rel="manifest" href="{{ asset('template/favicon/manifest.json') }}">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{ asset('template/favicon/ms-icon-144x144.png') }}">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="theme-color" content="#ffffff"> -->
 
     <!-- Template CSS Files -->
     <link href="{{ asset('template/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -64,6 +66,9 @@
 <script src="{{ asset('template/js/popper.min.js') }}"></script>
 <script src="{{ asset('template/js/bootstrap.js') }}"></script>
 <script src="{{ asset('template/js/custom.js') }}"></script>
+
+
+</script>
 
 </body>
 
